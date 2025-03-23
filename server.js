@@ -26,27 +26,40 @@ if (cluster.isMaster) {
 } else {
   const app = express(); 
   app.use(expressWinston.logger({ winstonInstance: logger }));
+
   app.use(cors({
     origin: process.env.ALLOWED_ORIGINS || '*',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
   }));
- 
+
+  // ✅ Fix for 'trust proxy' issue
+  app.set('trust proxy', true); // Trust proxies (use 'loopback' if needed)
+
+  // ✅ Rate Limiting
   const limiter = rateLimit({
     windowMs: 15 * 60 * 1000, 
     max: 10000,  
     message: 'Too many requests from this IP, please try again later.',
+    standardHeaders: true,
+    legacyHeaders: false,
   });
-  app.set('trust proxy', 1);
   app.use('/api/', limiter);
+
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
+
   connectDB();
+
   app.use('/assets', express.static(path.join(__dirname, 'assets')));
   app.use('/api/auth', require('./routes/authRoutes'));
   app.use('/api/users', require('./routes/userRoutes'));
   app.use('/api/posts', require('./routes/postRoutes'));
-  app.get('/', (req, res) => {res.json({ message: 'Welcome to Social Media API' });});
+
+  app.get('/', (req, res) => {
+    res.json({ message: 'Welcome to Social Media API' });
+  });
+
   app.use((err, req, res, next) => {
     logger.error(err.message, { stack: err.stack });
     res.status(500).json({ message: 'Something went wrong!' });
