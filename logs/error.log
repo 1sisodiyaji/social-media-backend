@@ -1,0 +1,365 @@
+2025-03-23 13:51:34 [INFO] - Worker 16196 running on port 8081
+2025-03-23 13:51:34 [INFO] - Worker 668 running on port 8081
+2025-03-23 13:51:34 [INFO] - Worker 17224 running on port 8081
+2025-03-23 13:51:34 [INFO] - Worker 12620 running on port 8081
+2025-03-23 13:51:49 [SUCCESS] - Worker 18076 running on port 8081
+2025-03-23 13:51:49 [SUCCESS] - Worker 4752 running on port 8081
+2025-03-23 13:51:49 [SUCCESS] - Worker 18072 running on port 8081
+2025-03-23 13:51:49 [SUCCESS] - Worker 13196 running on port 8081
+2025-03-23 13:52:21 [SUCCESS] - Worker 12856 running on port 8081
+2025-03-23 13:52:21 [SUCCESS] - Worker 13992 running on port 8081
+2025-03-23 13:52:21 [SUCCESS] - Worker 6212 running on port 8081
+2025-03-23 13:52:21 [SUCCESS] - Worker 12120 running on port 8081
+2025-03-23 13:52:29 [SUCCESS] - Worker 17868 running on port 8081
+2025-03-23 13:52:29 [SUCCESS] - Worker 20388 running on port 8081
+2025-03-23 13:52:29 [SUCCESS] - Worker 19668 running on port 8081
+2025-03-23 13:52:29 [SUCCESS] - Worker 18812 running on port 8081
+2025-03-23 13:52:34 [SUCCESS] - Worker 19844 running on port 8081
+2025-03-23 13:52:34 [SUCCESS] - Worker 19716 running on port 8081
+2025-03-23 13:52:34 [SUCCESS] - Worker 6216 running on port 8081
+2025-03-23 13:52:34 [SUCCESS] - Worker 8932 running on port 8081
+2025-03-23 13:52:42 [INFO] - Master process 9092 is running
+2025-03-23 13:52:43 [SUCCESS] - Worker 5616 running on port 8081
+2025-03-23 13:52:43 [SUCCESS] - Worker 11724 running on port 8081
+2025-03-23 13:52:43 [SUCCESS] - Worker 7844 running on port 8081
+2025-03-23 13:52:44 [SUCCESS] - Worker 12524 running on port 8081
+2025-03-23 13:52:47 [INFO] - Master process 17392 is running
+2025-03-23 13:52:49 [SUCCESS] - Worker 18056 running on port 8081
+2025-03-23 13:52:49 [SUCCESS] - Worker 20068 running on port 8081
+2025-03-23 13:52:49 [SUCCESS] - Worker 16832 running on port 8081
+2025-03-23 13:52:50 [SUCCESS] - Worker 8524 running on port 8081
+2025-03-23 13:53:03 [INFO] - Master process 13900 is running
+2025-03-23 13:53:04 [SUCCESS] - Worker 13964 running on port 8081
+2025-03-23 13:53:04 [SUCCESS] - Worker 8104 running on port 8081
+2025-03-23 13:53:04 [SUCCESS] - Worker 2556 running on port 8081
+2025-03-23 13:53:04 [SUCCESS] - Worker 6004 running on port 8081
+2025-03-23 13:53:06 [SUCCESS] - Worker 2304 running on port 8081
+2025-03-23 13:53:06 [SUCCESS] - Worker 10848 running on port 8081
+2025-03-23 13:53:06 [SUCCESS] - Worker 3308 running on port 8081
+2025-03-23 13:53:06 [SUCCESS] - Worker 4532 running on port 8081
+2025-03-23 13:53:08 [SUCCESS] - Worker 9648 running on port 8081
+2025-03-23 13:53:09 [SUCCESS] - Worker 15220 running on port 8081
+2025-03-23 13:53:09 [SUCCESS] - Worker 9636 running on port 8081
+2025-03-23 13:53:09 [SUCCESS] - Worker 17604 running on port 8081
+2025-03-23 13:53:11 [SUCCESS] - Worker 16668 running on port 8081
+2025-03-23 13:53:11 [SUCCESS] - Worker 14988 running on port 8081
+2025-03-23 13:53:11 [SUCCESS] - Worker 14664 running on port 8081
+2025-03-23 13:53:11 [SUCCESS] - Worker 3500 running on port 8081
+2025-03-23 13:53:14 [INFO] - Master process 10640 is running
+2025-03-23 13:53:16 [SUCCESS] - Worker 1436 running on port 8081
+2025-03-23 13:53:16 [SUCCESS] - Worker 7340 running on port 8081
+2025-03-23 13:53:16 [SUCCESS] - Worker 17392 running on port 8081
+2025-03-23 13:53:16 [SUCCESS] - Worker 3132 running on port 8081
+2025-03-23 13:53:17 [SUCCESS] - Worker 18012 running on port 8081
+2025-03-23 13:53:17 [SUCCESS] - Worker 14108 running on port 8081
+2025-03-23 13:53:17 [SUCCESS] - Worker 3680 running on port 8081
+2025-03-23 13:53:18 [SUCCESS] - Worker 8628 running on port 8081
+2025-03-23 13:53:19 [INFO] - Master process 7744 is running
+2025-03-23 13:53:21 [SUCCESS] - Worker 17692 running on port 8081
+2025-03-23 13:53:21 [SUCCESS] - Worker 14332 running on port 8081
+2025-03-23 13:53:21 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:53:21 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:53:21 [SUCCESS] - Worker 6796 running on port 8081
+2025-03-23 13:53:21 [SUCCESS] - Worker 8016 running on port 8081
+2025-03-23 13:53:21 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:53:21 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:53:22 [INFO] - Master process 18740 is running
+2025-03-23 13:53:23 [SUCCESS] - Worker 16780 running on port 8081
+2025-03-23 13:53:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:53:23 [SUCCESS] - Worker 17344 running on port 8081
+2025-03-23 13:53:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:53:23 [SUCCESS] - Worker 15312 running on port 8081
+2025-03-23 13:53:23 [SUCCESS] - Worker 9760 running on port 8081
+2025-03-23 13:53:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:53:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:33 [INFO] - Master process 9912 is running
+2025-03-23 13:54:35 [SUCCESS] - Worker 17960 running on port 8081
+2025-03-23 13:54:35 [SUCCESS] - Worker 4052 running on port 8081
+2025-03-23 13:54:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:35 [SUCCESS] - Worker 6004 running on port 8081
+2025-03-23 13:54:35 [SUCCESS] - Worker 16516 running on port 8081
+2025-03-23 13:54:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:43 [INFO] - Master process 17796 is running
+2025-03-23 13:54:44 [SUCCESS] - Worker 13180 running on port 8081
+2025-03-23 13:54:44 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:44 [SUCCESS] - Worker 20020 running on port 8081
+2025-03-23 13:54:44 [SUCCESS] - Worker 8208 running on port 8081
+2025-03-23 13:54:44 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:44 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:44 [SUCCESS] - Worker 14316 running on port 8081
+2025-03-23 13:54:44 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:46 [INFO] - Master process 10516 is running
+2025-03-23 13:54:48 [SUCCESS] - Worker 7472 running on port 8081
+2025-03-23 13:54:48 [SUCCESS] - Worker 12184 running on port 8081
+2025-03-23 13:54:48 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:48 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:48 [SUCCESS] - Worker 12900 running on port 8081
+2025-03-23 13:54:48 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:48 [INFO] - Master process 13288 is running
+2025-03-23 13:54:51 [SUCCESS] - Worker 1860 running on port 8081
+2025-03-23 13:54:51 [SUCCESS] - Worker 11356 running on port 8081
+2025-03-23 13:54:51 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:51 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:51 [SUCCESS] - Worker 9884 running on port 8081
+2025-03-23 13:54:51 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:51 [SUCCESS] - Worker 19584 running on port 8081
+2025-03-23 13:54:51 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:54:58 [INFO] - Master process 19128 is running
+2025-03-23 13:55:00 [INFO] - Master process 18912 is running
+2025-03-23 13:55:02 [INFO] - Master process 10624 is running
+2025-03-23 13:55:03 [SUCCESS] - Worker 14648 running on port 8081
+2025-03-23 13:55:03 [SUCCESS] - Worker 12948 running on port 8081
+2025-03-23 13:55:03 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:03 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:03 [SUCCESS] - Worker 5304 running on port 8081
+2025-03-23 13:55:03 [SUCCESS] - Worker 1596 running on port 8081
+2025-03-23 13:55:03 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:03 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:04 [INFO] - Master process 18884 is running
+2025-03-23 13:55:05 [SUCCESS] - Worker 1364 running on port 8081
+2025-03-23 13:55:05 [SUCCESS] - Worker 2864 running on port 8081
+2025-03-23 13:55:05 [SUCCESS] - Worker 684 running on port 8081
+2025-03-23 13:55:05 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:05 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:05 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:05 [SUCCESS] - Worker 18508 running on port 8081
+2025-03-23 13:55:06 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:15 [INFO] - Master process 18104 is running
+2025-03-23 13:55:16 [SUCCESS] - Worker 13836 running on port 8081
+2025-03-23 13:55:16 [SUCCESS] - Worker 6592 running on port 8081
+2025-03-23 13:55:16 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:16 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:16 [SUCCESS] - Worker 13020 running on port 8081
+2025-03-23 13:55:16 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:16 [SUCCESS] - Worker 18144 running on port 8081
+2025-03-23 13:55:16 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:20 [INFO] - Master process 12996 is running
+2025-03-23 13:55:22 [SUCCESS] - Worker 10208 running on port 8081
+2025-03-23 13:55:22 [SUCCESS] - Worker 19920 running on port 8081
+2025-03-23 13:55:22 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:22 [SUCCESS] - Worker 11340 running on port 8081
+2025-03-23 13:55:22 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:22 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:22 [SUCCESS] - Worker 12732 running on port 8081
+2025-03-23 13:55:22 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:31 [INFO] - Master process 7176 is running
+2025-03-23 13:55:33 [INFO] - Master process 12396 is running
+2025-03-23 13:55:34 [SUCCESS] - Worker 18012 running on port 8081
+2025-03-23 13:55:34 [SUCCESS] - Worker 18176 running on port 8081
+2025-03-23 13:55:34 [SUCCESS] - Worker 15876 running on port 8081
+2025-03-23 13:55:34 [SUCCESS] - Worker 4404 running on port 8081
+2025-03-23 13:55:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:58 [INFO] - Master process 20144 is running
+2025-03-23 13:55:59 [SUCCESS] - Worker 16832 running on port 8081
+2025-03-23 13:55:59 [SUCCESS] - Worker 4772 running on port 8081
+2025-03-23 13:55:59 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:59 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:59 [SUCCESS] - Worker 3364 running on port 8081
+2025-03-23 13:55:59 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:55:59 [SUCCESS] - Worker 7880 running on port 8081
+2025-03-23 13:55:59 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:25 [INFO] - Master process 17608 is running
+2025-03-23 13:56:27 [SUCCESS] - Worker 9916 running on port 8081
+2025-03-23 13:56:27 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:27 [SUCCESS] - Worker 17940 running on port 8081
+2025-03-23 13:56:27 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:27 [SUCCESS] - Worker 17868 running on port 8081
+2025-03-23 13:56:27 [SUCCESS] - Worker 8356 running on port 8081
+2025-03-23 13:56:27 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:27 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:28 [INFO] - Master process 20020 is running
+2025-03-23 13:56:30 [SUCCESS] - Worker 5168 running on port 8081
+2025-03-23 13:56:30 [SUCCESS] - Worker 17660 running on port 8081
+2025-03-23 13:56:30 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:30 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:30 [SUCCESS] - Worker 18568 running on port 8081
+2025-03-23 13:56:30 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:30 [SUCCESS] - Worker 11596 running on port 8081
+2025-03-23 13:56:30 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:34 [INFO] - Master process 12468 is running
+2025-03-23 13:56:35 [SUCCESS] - Worker 18216 running on port 8081
+2025-03-23 13:56:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:35 [SUCCESS] - Worker 18656 running on port 8081
+2025-03-23 13:56:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:36 [SUCCESS] - Worker 12032 running on port 8081
+2025-03-23 13:56:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:56:36 [SUCCESS] - Worker 7812 running on port 8081
+2025-03-23 13:56:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:57:34 [INFO] - Master process 7680 is running
+2025-03-23 13:57:36 [SUCCESS] - Worker 732 running on port 8081
+2025-03-23 13:57:36 [SUCCESS] - Worker 9004 running on port 8081
+2025-03-23 13:57:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:57:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:57:36 [SUCCESS] - Worker 18140 running on port 8081
+2025-03-23 13:57:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:57:36 [SUCCESS] - Worker 19716 running on port 8081
+2025-03-23 13:57:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:57:37 [INFO] - Master process 14560 is running
+2025-03-23 13:57:39 [SUCCESS] - Worker 20116 running on port 8081
+2025-03-23 13:57:39 [SUCCESS] - Worker 18556 running on port 8081
+2025-03-23 13:57:39 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:57:39 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:57:39 [SUCCESS] - Worker 17576 running on port 8081
+2025-03-23 13:57:39 [SUCCESS] - Worker 17936 running on port 8081
+2025-03-23 13:57:39 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:57:39 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:58:23 [INFO] - Master process 19792 is running
+2025-03-23 13:58:24 [SUCCESS] - Worker 9568 running on port 8081
+2025-03-23 13:58:24 [SUCCESS] - Worker 2248 running on port 8081
+2025-03-23 13:58:24 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:58:24 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:58:24 [SUCCESS] - Worker 11416 running on port 8081
+2025-03-23 13:58:24 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:58:24 [SUCCESS] - Worker 17120 running on port 8081
+2025-03-23 13:58:24 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:31 [INFO] - Master process 11928 is running
+2025-03-23 13:59:33 [SUCCESS] - Worker 20020 running on port 8081
+2025-03-23 13:59:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:33 [SUCCESS] - Worker 18516 running on port 8081
+2025-03-23 13:59:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:33 [SUCCESS] - Worker 284 running on port 8081
+2025-03-23 13:59:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:34 [INFO] - Master process 17148 is running
+2025-03-23 13:59:36 [SUCCESS] - Worker 19840 running on port 8081
+2025-03-23 13:59:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:36 [SUCCESS] - Worker 17868 running on port 8081
+2025-03-23 13:59:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:36 [SUCCESS] - Worker 8432 running on port 8081
+2025-03-23 13:59:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:36 [SUCCESS] - Worker 19536 running on port 8081
+2025-03-23 13:59:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:38 [INFO] - Master process 3132 is running
+2025-03-23 13:59:40 [SUCCESS] - Worker 1876 running on port 8081
+2025-03-23 13:59:40 [SUCCESS] - Worker 5888 running on port 8081
+2025-03-23 13:59:40 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:40 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:40 [SUCCESS] - Worker 17028 running on port 8081
+2025-03-23 13:59:40 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:41 [INFO] - Master process 1672 is running
+2025-03-23 13:59:42 [SUCCESS] - Worker 2424 running on port 8081
+2025-03-23 13:59:42 [SUCCESS] - Worker 15932 running on port 8081
+2025-03-23 13:59:42 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:42 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:43 [SUCCESS] - Worker 8344 running on port 8081
+2025-03-23 13:59:43 [SUCCESS] - Worker 12908 running on port 8081
+2025-03-23 13:59:43 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:43 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:49 [INFO] - Master process 18640 is running
+2025-03-23 13:59:52 [INFO] - Master process 17052 is running
+2025-03-23 13:59:53 [SUCCESS] - Worker 12964 running on port 8081
+2025-03-23 13:59:54 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:54 [SUCCESS] - Worker 5116 running on port 8081
+2025-03-23 13:59:54 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:55 [INFO] - Master process 18944 is running
+2025-03-23 13:59:56 [SUCCESS] - Worker 11872 running on port 8081
+2025-03-23 13:59:56 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:57 [SUCCESS] - Worker 9504 running on port 8081
+2025-03-23 13:59:57 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:57 [SUCCESS] - Worker 1536 running on port 8081
+2025-03-23 13:59:57 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:57 [SUCCESS] - Worker 12016 running on port 8081
+2025-03-23 13:59:57 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 13:59:58 [INFO] - Master process 17192 is running
+2025-03-23 14:00:00 [SUCCESS] - Worker 20080 running on port 8081
+2025-03-23 14:00:01 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:00:01 [SUCCESS] - Worker 18612 running on port 8081
+2025-03-23 14:00:01 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:00:01 [SUCCESS] - Worker 11564 running on port 8081
+2025-03-23 14:00:01 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:00:01 [SUCCESS] - Worker 17556 running on port 8081
+2025-03-23 14:00:01 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:00:23 [INFO] - Master process 19516 is running
+2025-03-23 14:01:11 [INFO] - Master process 11596 is running
+2025-03-23 14:01:29 [INFO] - Master process 18488 is running
+2025-03-23 14:01:32 [INFO] - Master process 7736 is running
+2025-03-23 14:01:34 [SUCCESS] - Worker 19248 running on port 8081
+2025-03-23 14:01:34 [SUCCESS] - Worker 19328 running on port 8081
+2025-03-23 14:01:34 [SUCCESS] - Worker 6632 running on port 8081
+2025-03-23 14:01:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:01:34 [SUCCESS] - Worker 19544 running on port 8081
+2025-03-23 14:01:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:01:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:01:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:01:59 [INFO] - Master process 19444 is running
+2025-03-23 14:02:01 [SUCCESS] - Worker 7492 running on port 8081
+2025-03-23 14:02:01 [SUCCESS] - Worker 1136 running on port 8081
+2025-03-23 14:02:01 [SUCCESS] - Worker 18340 running on port 8081
+2025-03-23 14:02:01 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:01 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:01 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:01 [SUCCESS] - Worker 8984 running on port 8081
+2025-03-23 14:02:01 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:02 [INFO] - Master process 19324 is running
+2025-03-23 14:02:04 [SUCCESS] - Worker 11132 running on port 8081
+2025-03-23 14:02:04 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:04 [SUCCESS] - Worker 7188 running on port 8081
+2025-03-23 14:02:04 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:04 [SUCCESS] - Worker 3500 running on port 8081
+2025-03-23 14:02:05 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:07 [INFO] - Master process 19528 is running
+2025-03-23 14:02:08 [SUCCESS] - Worker 9568 running on port 8081
+2025-03-23 14:02:08 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:08 [SUCCESS] - Worker 16116 running on port 8081
+2025-03-23 14:02:08 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:08 [SUCCESS] - Worker 6904 running on port 8081
+2025-03-23 14:02:08 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:08 [SUCCESS] - Worker 1972 running on port 8081
+2025-03-23 14:02:09 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:16 [INFO] - Master process 3252 is running
+2025-03-23 14:02:17 [SUCCESS] - Worker 13192 running on port 8081
+2025-03-23 14:02:17 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:17 [SUCCESS] - Worker 4720 running on port 8081
+2025-03-23 14:02:17 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:18 [SUCCESS] - Worker 19724 running on port 8081
+2025-03-23 14:02:18 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:18 [SUCCESS] - Worker 13428 running on port 8081
+2025-03-23 14:02:18 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:19 [INFO] - Master process 18680 is running
+2025-03-23 14:02:20 [SUCCESS] - Worker 19776 running on port 8081
+2025-03-23 14:02:20 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:20 [SUCCESS] - Worker 2932 running on port 8081
+2025-03-23 14:02:20 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:20 [SUCCESS] - Worker 17608 running on port 8081
+2025-03-23 14:02:20 [SUCCESS] - Worker 20264 running on port 8081
+2025-03-23 14:02:21 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:21 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:21 [INFO] - Master process 8712 is running
+2025-03-23 14:02:23 [SUCCESS] - Worker 20260 running on port 8081
+2025-03-23 14:02:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:23 [SUCCESS] - Worker 6860 running on port 8081
+2025-03-23 14:02:23 [SUCCESS] - Worker 15100 running on port 8081
+2025-03-23 14:02:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:24 [INFO] - Master process 2040 is running
+2025-03-23 14:02:25 [SUCCESS] - Worker 18676 running on port 8081
+2025-03-23 14:02:25 [SUCCESS] - Worker 12984 running on port 8081
+2025-03-23 14:02:25 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:25 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:25 [SUCCESS] - Worker 10420 running on port 8081
+2025-03-23 14:02:25 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:25 [SUCCESS] - Worker 18616 running on port 8081
+2025-03-23 14:02:25 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:28 [INFO] - Master process 16028 is running
+2025-03-23 14:02:29 [SUCCESS] - Worker 13020 running on port 8081
+2025-03-23 14:02:29 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:29 [SUCCESS] - Worker 1976 running on port 8081
+2025-03-23 14:02:29 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:29 [SUCCESS] - Worker 20360 running on port 8081
+2025-03-23 14:02:29 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:29 [SUCCESS] - Worker 13556 running on port 8081
+2025-03-23 14:02:29 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:30 [INFO] - Master process 8640 is running
+2025-03-23 14:02:32 [INFO] - Master process 17884 is running
+2025-03-23 14:02:33 [SUCCESS] - Worker 17732 running on port 8081
+2025-03-23 14:02:33 [SUCCESS] - Worker 16440 running on port 8081
+2025-03-23 14:02:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:33 [SUCCESS] - Worker 19012 running on port 8081
+2025-03-23 14:02:33 [SUCCESS] - Worker 4016 running on port 8081
+2025-03-23 14:02:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:02:33 [SUCCESS] - MongoDB Connected: localhost

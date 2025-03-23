@@ -1,6 +1,7 @@
 const User = require('../models/User');
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+const logger = require('../config/logger');
 
 const validateEmail = (email) => {
   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -10,6 +11,8 @@ const validateEmail = (email) => {
 
 exports.register = async (req, res) => {
   try {
+    logger.debug('Registration attempt:', { username: req.body.username, email: req.body.email });
+
     const { username, email, password } = req.body;
 
     // Enhanced validation
@@ -25,122 +28,76 @@ exports.register = async (req, res) => {
       });
     }
 
-
-    // Check for existing user
-    const existingUser = await User.findOne({
-      $or: [
-        { email: email.toLowerCase() },
-        { username: username.toLowerCase() }
-      ]
-    });
-
+    // Check if user already exists
+    const existingUser = await User.findOne({ $or: [{ email }, { username }] });
     if (existingUser) {
-      return res.status(400).json({
-        message: existingUser.email === email.toLowerCase() 
-          ? 'Email already in use' 
-          : 'Username already taken'
-      });
+      logger.warn('Registration failed - User already exists:', { email, username });
+      return res.status(400).json({ error: 'User already exists' });
     }
 
     // Hash password
-    const salt = await bcrypt.genSalt(12);
+    const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
 
     // Create new user
     const user = new User({
-      username: username.toLowerCase(),
-      email: email.toLowerCase(),
-      password: hashedPassword,
+      username,
+      email,
+      password: hashedPassword
     });
 
     await user.save();
+    logger.info('New user registered successfully:', { userId: user._id, username });
 
-    // Generate JWT
-    const token = jwt.sign(
-      { id: user._id },
-      process.env.JWT_SECRET,
-      { expiresIn: '7d' }
-    );
-
-    // Send response without password
-    const userResponse = {
-      id: user._id,
-      username: user.username,
-      email: user.email,
-      profilePicture: user.profilePicture,
-      createdAt: user.createdAt
-    };
-
-    res.status(201).json({
-      success: true,
-      token,
-      user: userResponse
-    });
-
+    res.status(201).json({ message: 'User registered successfully' });
   } catch (error) {
-    console.error('Register error:', error);
-    res.status(500).json({ 
-      message: 'Server error during registration' 
-    });
+    logger.error('Registration error:', { error: error.message, stack: error.stack });
+    res.status(500).json({ error: 'Error registering user' });
   }
 };
 
 exports.login = async (req, res) => {
   try {
-    const { email, password } = req.body;
+    logger.debug('Login attempt:', { username: req.body.username });
 
-    if (!email || !password) {
-      return res.status(400).json({ 
-        message: 'Please provide both email and password' 
-      });
-    }
+    const { username, password } = req.body;
 
-    // Find user by email
-    const user = await User.findOne({ 
-      email: email.toLowerCase() 
-    });
-
+    // Find user
+    const user = await User.findOne({ username });
     if (!user) {
-      return res.status(401).json({ 
-        message: 'Invalid credentials' 
-      });
+      logger.warn('Login failed - User not found:', { username });
+      return res.status(401).json({ error: 'Invalid credentials' });
     }
 
-    // Verify password
-    const isMatch = await bcrypt.compare(password, user.password);
-    if (!isMatch) {
-      return res.status(401).json({ 
-        message: 'Invalid credentials' 
-      });
+    // Check password
+    const validPassword = await bcrypt.compare(password, user.password);
+    if (!validPassword) {
+      logger.warn('Login failed - Invalid password:', { username });
+      return res.status(401).json({ error: 'Invalid credentials' });
     }
 
-    // Generate JWT
+    // Generate token
     const token = jwt.sign(
-      { id: user._id },
+      { userId: user._id },
       process.env.JWT_SECRET,
-      { expiresIn: '7d' }
+      { expiresIn: '24h' }
     );
 
-    // Send response without password
-    const userResponse = {
-      id: user._id,
-      username: user.username,
-      email: user.email,
-      profilePicture: user.profilePicture,
-      createdAt: user.createdAt
-    };
+    logger.info('User logged in successfully:', { userId: user._id, username });
 
     res.json({
-      success: true,
       token,
-      user: userResponse
+      user: {
+        _id: user._id,
+        username: user.username,
+        email: user.email,
+        profilePicture: user.profilePicture,
+        bio: user.bio
+      }
     });
-
   } catch (error) {
-    console.error('Login error:', error);
-    res.status(500).json({ 
-      message: 'Server error during login' 
-    });
+    logger.error('Login error:', { error: error.message, stack: error.stack });
+    res.status(500).json({ error: 'Error logging in' });
   }
 };
 

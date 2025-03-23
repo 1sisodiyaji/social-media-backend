@@ -1,4 +1,5 @@
 const jwt = require('jsonwebtoken');
+const logger = require('../config/logger');
 
 const auth = (req, res, next) => {
   try {
@@ -7,6 +8,7 @@ const auth = (req, res, next) => {
     req.user = decoded;
     next();
   } catch (error) {
+    logger.error(error);
     res.status(401).json({ message: 'Authentication required' });
   }
 };

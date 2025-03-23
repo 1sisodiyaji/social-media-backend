@@ -1,125 +1,186 @@
 const Post = require('../models/Post');
 const Comment = require('../models/Comment');
+const logger = require('../config/logger');
 
+// Create a new post
 exports.createPost = async (req, res) => {
   try {
+    logger.debug('Creating new post:', { userId: req.user._id, text: req.body.text });
+
     const { text } = req.body;
-    const images = req.processedImages; // Get processed images from middleware
-    
-    console.log('Request body:', req.body);
-    console.log('Processed images:', images);
+    const images = req.files ? req.files.map(file => `/assets/${file.filename}`) : [];
 
-    if (!text) {
-      return res.status(400).json({ 
-        message: 'Text is required for the post' 
-      });
-    }
-
-    // Images are already validated in the processImages middleware
     const post = new Post({
-      userId: req.user.id,
+      userId: req.user._id,
       text,
       images
     });
 
     await post.save();
-    res.status(201).json(post);
+    logger.info('Post created successfully:', { postId: post._id, userId: req.user._id });
+
+    const populatedPost = await Post.findById(post._id)
+      .populate('userId', 'username profilePicture');
+
+    res.status(201).json(populatedPost);
   } catch (error) {
-    console.error('Error creating post:', error);
-    res.status(500).json({ message: 'Error creating post' });
+    logger.error('Error creating post:', { error: error.message, stack: error.stack });
+    res.status(500).json({ error: 'Error creating post' });
   }
 };
 
+// Get all posts with pagination
 exports.getAllPosts = async (req, res) => {
   try {
+    const page = parseInt(req.query.page) || 1;
+    const limit = parseInt(req.query.limit) || 10;
+    const skip = (page - 1) * limit;
+
+    logger.debug('Fetching posts:', { page, limit });
+
     const posts = await Post.find()
       .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit)
       .populate('userId', 'username profilePicture');
-    res.json(posts);
+
+    const total = await Post.countDocuments();
+    const hasMore = skip + posts.length < total;
+
+    logger.info('Posts fetched successfully:', { 
+      count: posts.length, 
+      page, 
+      hasMore 
+    });
+
+    res.json({
+      posts,
+      hasMore
+    });
   } catch (error) {
-    res.status(500).json({ message: 'Error fetching posts' });
+    logger.error('Error fetching posts:', { error: error.message, stack: error.stack });
+    res.status(500).json({ error: 'Error fetching posts' });
   }
 };
 
+// Get a single post
 exports.getPost = async (req, res) => {
   try {
+    logger.debug('Fetching post:', { postId: req.params.id });
+
     const post = await Post.findById(req.params.id)
       .populate('userId', 'username profilePicture');
+
     if (!post) {
-      return res.status(404).json({ message: 'Post not found' });
+      logger.warn('Post not found:', { postId: req.params.id });
+      return res.status(404).json({ error: 'Post not found' });
     }
+
+    logger.info('Post fetched successfully:', { postId: post._id });
     res.json(post);
   } catch (error) {
-    res.status(500).json({ message: 'Error fetching post' });
+    logger.error('Error fetching post:', { error: error.message, stack: error.stack });
+    res.status(500).json({ error: 'Error fetching post' });
   }
 };
 
+// Update a post
 exports.updatePost = async (req, res) => {
   try {
+    logger.debug('Updating post:', { postId: req.params.id, userId: req.user._id });
+
     const post = await Post.findById(req.params.id);
+
     if (!post) {
-      return res.status(404).json({ message: 'Post not found' });
+      logger.warn('Post not found:', { postId: req.params.id });
+      return res.status(404).json({ error: 'Post not found' });
     }
-    
-    if (post.userId.toString() !== req.user.id) {
-      return res.status(403).json({ message: 'Not authorized' });
+
+    if (post.userId.toString() !== req.user._id.toString()) {
+      logger.warn('Unauthorized post update attempt:', { 
+        postId: req.params.id, 
+        userId: req.user._id 
+      });
+      return res.status(403).json({ error: 'Not authorized' });
     }
 
     const updatedPost = await Post.findByIdAndUpdate(
       req.params.id,
       { $set: req.body },
       { new: true }
-    );
+    ).populate('userId', 'username profilePicture');
+
+    logger.info('Post updated successfully:', { postId: updatedPost._id });
     res.json(updatedPost);
   } catch (error) {
-    res.status(500).json({ message: 'Error updating post' });
+    logger.error('Error updating post:', { error: error.message, stack: error.stack });
+    res.status(500).json({ error: 'Error updating post' });
   }
 };
 
+// Delete a post
 exports.deletePost = async (req, res) => {
   try {
+    logger.debug('Deleting post:', { postId: req.params.id, userId: req.user._id });
+
     const post = await Post.findById(req.params.id);
+
     if (!post) {
-      return res.status(404).json({ message: 'Post not found' });
-    }
-    
-    if (post.userId.toString() !== req.user.id) {
-      return res.status(403).json({ message: 'Not authorized' });
+      logger.warn('Post not found:', { postId: req.params.id });
+      return res.status(404).json({ error: 'Post not found' });
     }
 
-    await post.deleteOne();
+    if (post.userId.toString() !== req.user._id.toString()) {
+      logger.warn('Unauthorized post deletion attempt:', { 
+        postId: req.params.id, 
+        userId: req.user._id 
+      });
+      return res.status(403).json({ error: 'Not authorized' });
+    }
+
+    await Post.findByIdAndDelete(req.params.id);
+    await Comment.deleteMany({ postId: req.params.id });
+
+    logger.info('Post and associated comments deleted successfully:', { postId: req.params.id });
     res.json({ message: 'Post deleted successfully' });
   } catch (error) {
-    res.status(500).json({ message: 'Error deleting post' });
+    logger.error('Error deleting post:', { error: error.message, stack: error.stack });
+    res.status(500).json({ error: 'Error deleting post' });
   }
 };
 
-// Like/Unlike a post
+// Toggle like on a post
 exports.toggleLike = async (req, res) => {
   try {
+    logger.debug('Toggling post like:', { postId: req.params.id, userId: req.user._id });
+
     const post = await Post.findById(req.params.id);
+
     if (!post) {
-      return res.status(404).json({ message: 'Post not found' });
+      logger.warn('Post not found:', { postId: req.params.id });
+      return res.status(404).json({ error: 'Post not found' });
     }
 
-    const isLiked = post.likes.includes(req.user.id);
-    
-    if (isLiked) {
-      // Unlike the post
-      post.likes = post.likes.filter(id => id.toString() !== req.user.id);
-    } else {
-      // Like the post
-      post.likes.push(req.user.id);
-    }
+    const isLiked = post.likes.includes(req.user._id);
+    const update = isLiked
+      ? { $pull: { likes: req.user._id } }
+      : { $addToSet: { likes: req.user._id } };
 
-    await post.save();
-    res.json({ 
-      message: isLiked ? 'Post unliked' : 'Post liked',
-      likes: post.likes.length 
+    const updatedPost = await Post.findByIdAndUpdate(
+      req.params.id,
+      update,
+      { new: true }
+    ).populate('userId', 'username profilePicture');
+
+    logger.info(`Post ${isLiked ? 'unliked' : 'liked'} successfully:`, { 
+      postId: post._id, 
+      userId: req.user._id 
     });
+
+    res.json(updatedPost);
   } catch (error) {
-    console.error('Error toggling like:', error);
-    res.status(500).json({ message: 'Error processing like' });
+    logger.error('Error toggling post like:', { error: error.message, stack: error.stack });
+    res.status(500).json({ error: 'Error toggling like' });
   }
 };
 

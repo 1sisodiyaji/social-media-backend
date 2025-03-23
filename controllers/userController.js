@@ -6,8 +6,13 @@ const bcrypt = require('bcryptjs');
 exports.getUserProfile = async (req, res) => {
   try {
     const user = await User.findById(req.params.id)
-      .select('-password'); // Exclude password from response
-    
+      .select('-password');   
+    const posts = await Post.aggregate([
+      { $match: { userId: user._id } },
+      { $sort: { createdAt: -1 } },
+      { $limit: 10 }
+    ]);
+    user.posts = posts;
     if (!user) {
       return res.status(404).json({ message: 'User not found' });
     }
@@ -24,6 +29,12 @@ exports.getMyProfile = async (req, res) => {
   try {
     const user = await User.findById(req.user.id)
       .select('-password');
+    const posts = await Post.aggregate([
+      { $match: { userId: user._id } },
+      { $sort: { createdAt: -1 } },
+      { $limit: 10 }
+    ]);
+    user.posts = posts;
     res.json(user);
   } catch (error) {
     console.error('Error fetching own profile:', error);

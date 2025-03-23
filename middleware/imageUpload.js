@@ -3,18 +3,17 @@ const sharp = require('sharp');
 const path = require('path');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
+const logger = require('../config/logger');
 
-// Create assets directory if it doesn't exist
 const assetsDir = path.join(__dirname, '../assets');
 if (!fs.existsSync(assetsDir)) {
   fs.mkdirSync(assetsDir, { recursive: true });
 }
 
-// Configure multer for memory storage
 const upload = multer({
   storage: multer.memoryStorage(),
   limits: {
-    fileSize: 5 * 1024 * 1024, // 5MB limit
+    fileSize: 5 * 1024 * 1024,
   },
   fileFilter: (req, file, cb) => {
     if (file.mimetype.startsWith('image/')) {
@@ -25,7 +24,6 @@ const upload = multer({
   },
 });
 
-// Image processing middleware
 const processImages = async (req, res, next) => {
   try {
     if (!req.files || req.files.length === 0) {
@@ -48,7 +46,7 @@ const processImages = async (req, res, next) => {
           fit: 'inside',
           withoutEnlargement: true
         })
-        .webp({ quality: 80 }) // Convert to WebP format
+        .webp({ quality: 80 })
         .toFile(filepath);
 
       processedImages.push(`/assets/${filename}`);
@@ -57,7 +55,7 @@ const processImages = async (req, res, next) => {
     req.processedImages = processedImages;
     next();
   } catch (error) {
-    console.error('Image processing error:', error);
+    logger.error('Image processing error:', error);
     res.status(500).json({ message: 'Error processing images' });
   }
 };

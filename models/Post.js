@@ -22,10 +22,8 @@ const postSchema = new mongoose.Schema({
   }],
 }, { timestamps: true });
 
-// Add method to clean up images when post is deleted
 postSchema.pre('remove', async function(next) {
   try {
-    // Delete associated images from filesystem
     const fs = require('fs');
     const path = require('path');
     
