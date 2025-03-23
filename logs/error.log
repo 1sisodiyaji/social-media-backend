@@ -1479,3 +1479,20 @@
 2025-03-23 17:33:34 [INFO] - HTTP GET /api/posts?page=1&limit=10
 2025-03-23 17:33:34 [INFO] - HTTP GET /api/users/me
 2025-03-23 17:33:34 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:35:20 [INFO] - HTTP OPTIONS /api/auth/register
+2025-03-23 17:35:20 [INFO] - Registration attempt:
+2025-03-23 17:35:20 [WARN] - Registration failed - User already exists:
+2025-03-23 17:35:20 [INFO] - HTTP POST /api/auth/register
+2025-03-23 17:35:31 [INFO] - HTTP OPTIONS /api/auth/register
+2025-03-23 17:35:31 [INFO] - Registration attempt:
+2025-03-23 17:35:31 [WARN] - Registration failed - User already exists:
+2025-03-23 17:35:31 [INFO] - HTTP POST /api/auth/register
+2025-03-23 17:35:51 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 17:35:51 [WARN] - Login failed - User not found:
+2025-03-23 17:35:51 [INFO] - HTTP POST /api/auth/login
+2025-03-23 17:36:42 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 17:36:42 [WARN] - Login failed - User not found:
+2025-03-23 17:36:42 [INFO] - HTTP POST /api/auth/login
+2025-03-23 17:37:15 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 17:37:15 [WARN] - Login failed - User not found:
+2025-03-23 17:37:15 [INFO] - HTTP POST /api/auth/login
