@@ -26,16 +26,18 @@ exports.getUserProfile = async (req, res) => {
 
 // Get current user's profile
 exports.getMyProfile = async (req, res) => {
+  console.log(req.user.userId)
   try {
-    const user = await User.findById(req.user.id)
+    const user = await User.findById(req.user.userId)
       .select('-password');
-    const posts = await Post.aggregate([
-      { $match: { userId: user._id } },
-      { $sort: { createdAt: -1 } },
-      { $limit: 10 }
-    ]);
-    user.posts = posts;
-    res.json(user);
+      if (!user) {
+        return res.status(404).json({ message: "User not found" });
+      }
+      const posts = await Post.find({ userId: user._id })
+      .sort({ createdAt: -1 })
+      .limit(10);
+  
+    res.status(200).json({ user, posts });
   } catch (error) {
     console.error('Error fetching own profile:', error);
     res.status(500).json({ message: 'Error fetching profile' });

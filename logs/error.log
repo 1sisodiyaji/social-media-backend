@@ -372,3 +372,1017 @@
 2025-03-23 14:02:37 [SUCCESS] - MongoDB Connected: localhost
 2025-03-23 14:02:37 [SUCCESS] - Worker 20420 running on port 8081
 2025-03-23 14:02:37 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:04:35 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:04:35 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 14:04:35 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 14:04:35 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:04:35 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:04:35 [ERROR] - Error fetching posts:
+2025-03-23 14:04:35 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 14:04:35 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:04:35 [ERROR] - invalid signature
+2025-03-23 14:04:35 [ERROR] - Error fetching posts:
+2025-03-23 14:04:35 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 14:04:35 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:04:35 [ERROR] - invalid signature
+2025-03-23 14:04:35 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:04:35 [ERROR] - invalid signature
+2025-03-23 14:04:35 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:04:35 [ERROR] - invalid signature
+2025-03-23 14:04:35 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:04:53 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:04:53 [ERROR] - Login error:
+2025-03-23 14:04:53 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:05:58 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:05:58 [ERROR] - Login error:
+2025-03-23 14:05:58 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:07:54 [INFO] - HTTP OPTIONS /api/auth/register
+2025-03-23 14:07:54 [ERROR] - Registration error:
+2025-03-23 14:07:54 [INFO] - HTTP POST /api/auth/register
+2025-03-23 14:08:03 [INFO] - HTTP OPTIONS /api/auth/register
+2025-03-23 14:08:04 [ERROR] - Registration error:
+2025-03-23 14:08:04 [INFO] - HTTP POST /api/auth/register
+2025-03-23 14:08:34 [INFO] - Master process 10516 is running
+2025-03-23 14:08:35 [SUCCESS] - Worker 16552 running on port 8081
+2025-03-23 14:08:35 [SUCCESS] - Worker 19824 running on port 8081
+2025-03-23 14:08:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:08:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:08:35 [SUCCESS] - Worker 17816 running on port 8081
+2025-03-23 14:08:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:08:35 [SUCCESS] - Worker 15236 running on port 8081
+2025-03-23 14:08:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:08:37 [INFO] - HTTP OPTIONS /api/auth/register
+2025-03-23 14:08:37 [INFO] - Registration attempt:
+2025-03-23 14:08:38 [INFO] - New user registered successfully:
+2025-03-23 14:08:38 [INFO] - HTTP POST /api/auth/register
+2025-03-23 14:09:07 [INFO] - Master process 18352 is running
+2025-03-23 14:09:09 [SUCCESS] - Worker 19048 running on port 8081
+2025-03-23 14:09:09 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:09:09 [SUCCESS] - Worker 19316 running on port 8081
+2025-03-23 14:09:09 [SUCCESS] - Worker 13840 running on port 8081
+2025-03-23 14:09:09 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:09:09 [SUCCESS] - Worker 18816 running on port 8081
+2025-03-23 14:09:10 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:09:10 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:09:21 [INFO] - Master process 7176 is running
+2025-03-23 14:09:22 [SUCCESS] - Worker 5924 running on port 8081
+2025-03-23 14:09:22 [SUCCESS] - Worker 19492 running on port 8081
+2025-03-23 14:09:22 [SUCCESS] - Worker 17128 running on port 8081
+2025-03-23 14:09:22 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:09:22 [SUCCESS] - Worker 15372 running on port 8081
+2025-03-23 14:09:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:09:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:09:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:10:34 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:10:34 [INFO] - Login attempt:
+2025-03-23 14:10:34 [WARN] - Login failed - User not found:
+2025-03-23 14:10:34 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:10:42 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:10:42 [INFO] - Login attempt:
+2025-03-23 14:10:42 [WARN] - Login failed - User not found:
+2025-03-23 14:10:42 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:11:40 [INFO] - Master process 16620 is running
+2025-03-23 14:11:43 [INFO] - Master process 10052 is running
+2025-03-23 14:11:59 [INFO] - Master process 4404 is running
+2025-03-23 14:12:02 [INFO] - Master process 17296 is running
+2025-03-23 14:12:04 [INFO] - Master process 19840 is running
+2025-03-23 14:12:06 [INFO] - Master process 20340 is running
+2025-03-23 14:12:11 [INFO] - Master process 3748 is running
+2025-03-23 14:12:16 [INFO] - Master process 19292 is running
+2025-03-23 14:12:19 [SUCCESS] - Worker 1136 running on port 8081
+2025-03-23 14:12:19 [SUCCESS] - Worker 15772 running on port 8081
+2025-03-23 14:12:19 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:19 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:19 [SUCCESS] - Worker 13012 running on port 8081
+2025-03-23 14:12:19 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:19 [SUCCESS] - Worker 11684 running on port 8081
+2025-03-23 14:12:19 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:23 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:12:23 [INFO] - Login attempt:
+2025-03-23 14:12:23 [WARN] - Login failed - User not found:
+2025-03-23 14:12:23 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:12:36 [INFO] - Master process 15972 is running
+2025-03-23 14:12:38 [SUCCESS] - Worker 4736 running on port 8081
+2025-03-23 14:12:38 [SUCCESS] - Worker 14720 running on port 8081
+2025-03-23 14:12:38 [SUCCESS] - Worker 4984 running on port 8081
+2025-03-23 14:12:38 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:38 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:38 [SUCCESS] - Worker 6916 running on port 8081
+2025-03-23 14:12:38 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:38 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:38 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:12:38 [INFO] - Login attempt:
+2025-03-23 14:12:38 [WARN] - Login failed - User not found:
+2025-03-23 14:12:38 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:12:47 [INFO] - Master process 19492 is running
+2025-03-23 14:12:48 [SUCCESS] - Worker 1596 running on port 8081
+2025-03-23 14:12:48 [SUCCESS] - Worker 7540 running on port 8081
+2025-03-23 14:12:48 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:48 [SUCCESS] - Worker 18208 running on port 8081
+2025-03-23 14:12:48 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:48 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:48 [SUCCESS] - Worker 10840 running on port 8081
+2025-03-23 14:12:48 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:56 [INFO] - Master process 12996 is running
+2025-03-23 14:12:58 [SUCCESS] - Worker 14516 running on port 8081
+2025-03-23 14:12:58 [SUCCESS] - Worker 11248 running on port 8081
+2025-03-23 14:12:58 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:58 [SUCCESS] - Worker 16528 running on port 8081
+2025-03-23 14:12:58 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:58 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:12:58 [SUCCESS] - Worker 12272 running on port 8081
+2025-03-23 14:12:58 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:15:42 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:15:42 [INFO] - Login attempt:
+2025-03-23 14:15:42 [WARN] - Login failed - User not found:
+2025-03-23 14:15:42 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:15:53 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:15:53 [INFO] - Login attempt:
+2025-03-23 14:15:53 [WARN] - Login failed - User not found:
+2025-03-23 14:15:53 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:16:11 [INFO] - Master process 17396 is running
+2025-03-23 14:16:15 [INFO] - Master process 2432 is running
+2025-03-23 14:16:18 [INFO] - Master process 18792 is running
+2025-03-23 14:16:19 [SUCCESS] - Worker 2304 running on port 8081
+2025-03-23 14:16:19 [SUCCESS] - Worker 14644 running on port 8081
+2025-03-23 14:16:19 [SUCCESS] - Worker 3248 running on port 8081
+2025-03-23 14:16:19 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:16:19 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:16:19 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:16:19 [SUCCESS] - Worker 7804 running on port 8081
+2025-03-23 14:16:19 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:16:57 [INFO] - Master process 16900 is running
+2025-03-23 14:16:58 [SUCCESS] - Worker 684 running on port 8081
+2025-03-23 14:16:58 [SUCCESS] - Worker 17548 running on port 8081
+2025-03-23 14:16:58 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:16:58 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:16:58 [SUCCESS] - Worker 16700 running on port 8081
+2025-03-23 14:16:58 [SUCCESS] - Worker 11840 running on port 8081
+2025-03-23 14:16:58 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:16:58 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:17:23 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:17:23 [INFO] - Login attempt:
+2025-03-23 14:17:23 [WARN] - Login failed - User not found:
+2025-03-23 14:17:23 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:17:33 [INFO] - Master process 14652 is running
+2025-03-23 14:17:34 [SUCCESS] - Worker 19312 running on port 8081
+2025-03-23 14:17:34 [SUCCESS] - Worker 16368 running on port 8081
+2025-03-23 14:17:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:17:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:17:34 [SUCCESS] - Worker 11592 running on port 8081
+2025-03-23 14:17:34 [SUCCESS] - Worker 19372 running on port 8081
+2025-03-23 14:17:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:17:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:17:38 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:17:38 [INFO] - Login attempt:
+2025-03-23 14:17:38 [WARN] - Login failed - User not found:
+2025-03-23 14:17:38 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:17:48 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:17:48 [INFO] - Login attempt:
+2025-03-23 14:17:48 [WARN] - Login failed - User not found:
+2025-03-23 14:17:48 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:18:03 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:18:03 [INFO] - Login attempt:
+2025-03-23 14:18:03 [WARN] - Login failed - User not found:
+2025-03-23 14:18:03 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:18:40 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:18:40 [INFO] - Login attempt:
+2025-03-23 14:18:40 [WARN] - Login failed - User not found:
+2025-03-23 14:18:40 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:19:03 [INFO] - Master process 17336 is running
+2025-03-23 14:19:06 [INFO] - Master process 18992 is running
+2025-03-23 14:19:07 [SUCCESS] - Worker 18608 running on port 8081
+2025-03-23 14:19:07 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:07 [SUCCESS] - Worker 18296 running on port 8081
+2025-03-23 14:19:07 [SUCCESS] - Worker 18828 running on port 8081
+2025-03-23 14:19:07 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:07 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:07 [SUCCESS] - Worker 18400 running on port 8081
+2025-03-23 14:19:07 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:13 [INFO] - Master process 17716 is running
+2025-03-23 14:19:15 [INFO] - Master process 2792 is running
+2025-03-23 14:19:16 [SUCCESS] - Worker 18524 running on port 8081
+2025-03-23 14:19:16 [SUCCESS] - Worker 14556 running on port 8081
+2025-03-23 14:19:16 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:16 [SUCCESS] - Worker 15936 running on port 8081
+2025-03-23 14:19:16 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:16 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:16 [SUCCESS] - Worker 5288 running on port 8081
+2025-03-23 14:19:16 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:21 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:19:21 [INFO] - Login attempt:
+2025-03-23 14:19:21 [WARN] - Login failed - User not found:
+2025-03-23 14:19:21 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:19:25 [INFO] - Login attempt:
+2025-03-23 14:19:25 [WARN] - Login failed - User not found:
+2025-03-23 14:19:25 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:19:36 [INFO] - Master process 9912 is running
+2025-03-23 14:19:38 [SUCCESS] - Worker 676 running on port 8081
+2025-03-23 14:19:38 [SUCCESS] - Worker 3036 running on port 8081
+2025-03-23 14:19:38 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:38 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:38 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:19:38 [SUCCESS] - Worker 19272 running on port 8081
+2025-03-23 14:19:38 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:38 [INFO] - Login attempt:
+2025-03-23 14:19:38 [SUCCESS] - Worker 11592 running on port 8081
+2025-03-23 14:19:38 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:19:38 [WARN] - Login failed - User not found:
+2025-03-23 14:19:38 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:19:43 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:19:43 [INFO] - Login attempt:
+2025-03-23 14:19:44 [WARN] - Login failed - User not found:
+2025-03-23 14:19:44 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:20:12 [INFO] - Master process 16768 is running
+2025-03-23 14:20:13 [SUCCESS] - Worker 14952 running on port 8081
+2025-03-23 14:20:13 [SUCCESS] - Worker 684 running on port 8081
+2025-03-23 14:20:13 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:13 [SUCCESS] - Worker 12620 running on port 8081
+2025-03-23 14:20:13 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:13 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:13 [SUCCESS] - Worker 20376 running on port 8081
+2025-03-23 14:20:13 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:29 [INFO] - Master process 1508 is running
+2025-03-23 14:20:31 [SUCCESS] - Worker 10516 running on port 8081
+2025-03-23 14:20:31 [SUCCESS] - Worker 18400 running on port 8081
+2025-03-23 14:20:31 [SUCCESS] - Worker 1332 running on port 8081
+2025-03-23 14:20:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:31 [SUCCESS] - Worker 4596 running on port 8081
+2025-03-23 14:20:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:32 [INFO] - Master process 19272 is running
+2025-03-23 14:20:33 [SUCCESS] - Worker 17704 running on port 8081
+2025-03-23 14:20:33 [SUCCESS] - Worker 4188 running on port 8081
+2025-03-23 14:20:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:33 [SUCCESS] - Worker 19324 running on port 8081
+2025-03-23 14:20:33 [SUCCESS] - Worker 9016 running on port 8081
+2025-03-23 14:20:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:35 [INFO] - Master process 19296 is running
+2025-03-23 14:20:36 [SUCCESS] - Worker 19360 running on port 8081
+2025-03-23 14:20:36 [SUCCESS] - Worker 6488 running on port 8081
+2025-03-23 14:20:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:36 [SUCCESS] - Worker 4212 running on port 8081
+2025-03-23 14:20:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:36 [SUCCESS] - Worker 3248 running on port 8081
+2025-03-23 14:20:36 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:20:52 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:20:52 [INFO] - Login attempt:
+2025-03-23 14:20:52 [WARN] - Login failed - User not found:
+2025-03-23 14:20:52 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:21:44 [INFO] - HTTP OPTIONS /api/auth/register
+2025-03-23 14:21:44 [INFO] - Registration attempt:
+2025-03-23 14:21:44 [INFO] - New user registered successfully:
+2025-03-23 14:21:44 [INFO] - HTTP POST /api/auth/register
+2025-03-23 14:22:06 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:22:06 [INFO] - Login attempt:
+2025-03-23 14:22:06 [WARN] - Login failed - User not found:
+2025-03-23 14:22:06 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:22:31 [INFO] - Master process 8872 is running
+2025-03-23 14:22:33 [SUCCESS] - Worker 17764 running on port 8081
+2025-03-23 14:22:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:33 [SUCCESS] - Worker 16760 running on port 8081
+2025-03-23 14:22:33 [SUCCESS] - Worker 8132 running on port 8081
+2025-03-23 14:22:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:33 [SUCCESS] - Worker 19460 running on port 8081
+2025-03-23 14:22:33 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:34 [INFO] - Master process 9440 is running
+2025-03-23 14:22:35 [SUCCESS] - Worker 19044 running on port 8081
+2025-03-23 14:22:35 [SUCCESS] - Worker 9884 running on port 8081
+2025-03-23 14:22:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:35 [SUCCESS] - Worker 5116 running on port 8081
+2025-03-23 14:22:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:35 [SUCCESS] - Worker 18984 running on port 8081
+2025-03-23 14:22:35 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:37 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:22:37 [INFO] - Login attempt:
+2025-03-23 14:22:37 [ERROR] - Login error:
+2025-03-23 14:22:37 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:22:48 [INFO] - Master process 17464 is running
+2025-03-23 14:22:49 [SUCCESS] - Worker 18176 running on port 8081
+2025-03-23 14:22:49 [SUCCESS] - Worker 1820 running on port 8081
+2025-03-23 14:22:49 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:49 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:49 [SUCCESS] - Worker 8244 running on port 8081
+2025-03-23 14:22:49 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:49 [SUCCESS] - Worker 17004 running on port 8081
+2025-03-23 14:22:49 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:22:55 [INFO] - Master process 4596 is running
+2025-03-23 14:22:58 [INFO] - Master process 19260 is running
+2025-03-23 14:23:00 [SUCCESS] - Worker 15136 running on port 8081
+2025-03-23 14:23:00 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:23:00 [SUCCESS] - Worker 5264 running on port 8081
+2025-03-23 14:23:00 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:23:00 [SUCCESS] - Worker 19204 running on port 8081
+2025-03-23 14:23:00 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:23:00 [SUCCESS] - Worker 15872 running on port 8081
+2025-03-23 14:23:00 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:23:03 [INFO] - Master process 13192 is running
+2025-03-23 14:23:04 [SUCCESS] - Worker 7952 running on port 8081
+2025-03-23 14:23:04 [SUCCESS] - Worker 12156 running on port 8081
+2025-03-23 14:23:04 [SUCCESS] - Worker 19252 running on port 8081
+2025-03-23 14:23:04 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:23:04 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:23:04 [SUCCESS] - Worker 3500 running on port 8081
+2025-03-23 14:23:04 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:23:04 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:23:07 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:23:07 [INFO] - Login attempt:
+2025-03-23 14:23:07 [WARN] - Login failed - User not found:
+2025-03-23 14:23:07 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:23:45 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:23:45 [INFO] - Login attempt:
+2025-03-23 14:23:45 [WARN] - Login failed - User not found:
+2025-03-23 14:23:45 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:24:30 [INFO] - HTTP OPTIONS /api/auth/login
+2025-03-23 14:24:30 [INFO] - Login attempt:
+2025-03-23 14:24:30 [INFO] - User logged in successfully:
+2025-03-23 14:24:30 [INFO] - HTTP POST /api/auth/login
+2025-03-23 14:24:30 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:24:30 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 14:24:30 [INFO] - Fetching posts:
+2025-03-23 14:24:30 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 14:24:30 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:24:30 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:24:30 [INFO] - Posts fetched successfully:
+2025-03-23 14:24:30 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:24:30 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:24:30 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 14:24:30 [INFO] - Fetching posts:
+2025-03-23 14:24:30 [INFO] - Posts fetched successfully:
+2025-03-23 14:24:31 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 14:24:36 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:24:36 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 14:24:36 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:24:36 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 14:24:36 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:24:36 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:24:36 [INFO] - Fetching posts:
+2025-03-23 14:24:36 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:24:36 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:24:36 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:24:36 [INFO] - Posts fetched successfully:
+2025-03-23 14:24:36 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 14:25:17 [INFO] - Master process 15236 is running
+2025-03-23 14:25:20 [INFO] - Master process 20116 is running
+2025-03-23 14:25:21 [INFO] - Master process 15920 is running
+2025-03-23 14:25:23 [SUCCESS] - Worker 9504 running on port 8081
+2025-03-23 14:25:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:25:23 [SUCCESS] - Worker 7220 running on port 8081
+2025-03-23 14:25:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:25:23 [SUCCESS] - Worker 13200 running on port 8081
+2025-03-23 14:25:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:25:23 [SUCCESS] - Worker 1624 running on port 8081
+2025-03-23 14:25:23 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 14:25:46 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:25:46 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:25:46 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:25:46 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:25:53 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:25:53 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 14:25:53 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 14:25:53 [INFO] - Fetching posts:
+2025-03-23 14:25:53 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 14:25:53 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:25:53 [INFO] - Posts fetched successfully:
+2025-03-23 14:25:53 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 14:25:53 [INFO] - HTTP GET /api/users/me
+2025-03-23 14:25:53 [INFO] - Fetching posts:
+2025-03-23 14:25:53 [INFO] - Posts fetched successfully:
+2025-03-23 14:25:53 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:07:14 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:07:14 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:07:14 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:07:14 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:07:14 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:07:14 [INFO] - Fetching posts:
+2025-03-23 15:07:14 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:07:14 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:07:14 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:07:14 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:07:15 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:07:15 [INFO] - Posts fetched successfully:
+2025-03-23 15:07:15 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:07:15 [INFO] - Fetching posts:
+2025-03-23 15:07:15 [INFO] - Posts fetched successfully:
+2025-03-23 15:07:15 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:07:56 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:07:56 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:07:56 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:07:56 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:07:59 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:07:59 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:07:59 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:07:59 [INFO] - Fetching posts:
+2025-03-23 15:07:59 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:07:59 [INFO] - Posts fetched successfully:
+2025-03-23 15:07:59 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:07:59 [INFO] - Fetching posts:
+2025-03-23 15:07:59 [INFO] - Posts fetched successfully:
+2025-03-23 15:07:59 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:08:06 [INFO] - HTTP OPTIONS /api/users/search?query=g
+2025-03-23 15:08:06 [INFO] - HTTP GET /api/users/search?query=g
+2025-03-23 15:08:07 [INFO] - HTTP OPTIONS /api/users/search?query=gol
+2025-03-23 15:08:07 [INFO] - HTTP GET /api/users/search?query=gol
+2025-03-23 15:16:54 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:16:54 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:16:54 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:16:54 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:16:54 [INFO] - Fetching posts:
+2025-03-23 15:16:54 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:16:54 [INFO] - Posts fetched successfully:
+2025-03-23 15:16:54 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:16:54 [INFO] - Fetching posts:
+2025-03-23 15:16:55 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:16:55 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:16:55 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:16:55 [INFO] - Posts fetched successfully:
+2025-03-23 15:16:55 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:16:55 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:16:55 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:17:28 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:17:28 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:17:28 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:17:28 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:17:28 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:17:28 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:17:28 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:17:28 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:17:28 [INFO] - Fetching posts:
+2025-03-23 15:17:28 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:17:28 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:17:28 [INFO] - Posts fetched successfully:
+2025-03-23 15:17:28 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:17:28 [INFO] - Fetching posts:
+2025-03-23 15:17:28 [INFO] - Posts fetched successfully:
+2025-03-23 15:17:28 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:19:13 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:19:13 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:19:13 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:19:13 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:20:13 [INFO] - Master process 9392 is running
+2025-03-23 15:20:16 [INFO] - Master process 15288 is running
+2025-03-23 15:20:18 [SUCCESS] - Worker 19328 running on port 8081
+2025-03-23 15:20:18 [SUCCESS] - Worker 18200 running on port 8081
+2025-03-23 15:20:18 [SUCCESS] - Worker 20548 running on port 8081
+2025-03-23 15:20:18 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:18 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:18 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:18 [SUCCESS] - Worker 22056 running on port 8081
+2025-03-23 15:20:18 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:23 [INFO] - Master process 13736 is running
+2025-03-23 15:20:24 [SUCCESS] - Worker 15688 running on port 8081
+2025-03-23 15:20:24 [SUCCESS] - Worker 20908 running on port 8081
+2025-03-23 15:20:24 [SUCCESS] - Worker 16172 running on port 8081
+2025-03-23 15:20:24 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:24 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:24 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:24 [SUCCESS] - Worker 17692 running on port 8081
+2025-03-23 15:20:24 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:27 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:20:27 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:20:27 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:20:27 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:20:27 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:20:27 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:20:27 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:20:27 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:20:53 [INFO] - Master process 20900 is running
+2025-03-23 15:20:54 [SUCCESS] - Worker 18944 running on port 8081
+2025-03-23 15:20:54 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:54 [SUCCESS] - Worker 12444 running on port 8081
+2025-03-23 15:20:54 [SUCCESS] - Worker 22068 running on port 8081
+2025-03-23 15:20:54 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:54 [SUCCESS] - Worker 17932 running on port 8081
+2025-03-23 15:20:54 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:54 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:20:56 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:20:56 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:20:56 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:20:56 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:20:57 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:20:57 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:20:57 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:20:57 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:21:33 [INFO] - Master process 13996 is running
+2025-03-23 15:21:34 [SUCCESS] - Worker 13308 running on port 8081
+2025-03-23 15:21:34 [SUCCESS] - Worker 8348 running on port 8081
+2025-03-23 15:21:34 [SUCCESS] - Worker 20508 running on port 8081
+2025-03-23 15:21:34 [SUCCESS] - Worker 1692 running on port 8081
+2025-03-23 15:21:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:38 [INFO] - Master process 9160 is running
+2025-03-23 15:21:39 [SUCCESS] - Worker 22140 running on port 8081
+2025-03-23 15:21:39 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:39 [SUCCESS] - Worker 19084 running on port 8081
+2025-03-23 15:21:39 [SUCCESS] - Worker 12764 running on port 8081
+2025-03-23 15:21:39 [SUCCESS] - Worker 20868 running on port 8081
+2025-03-23 15:21:39 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:39 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:39 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:43 [INFO] - Master process 12908 is running
+2025-03-23 15:21:44 [SUCCESS] - Worker 18420 running on port 8081
+2025-03-23 15:21:44 [SUCCESS] - Worker 9872 running on port 8081
+2025-03-23 15:21:44 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:44 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:44 [SUCCESS] - Worker 13276 running on port 8081
+2025-03-23 15:21:44 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:44 [SUCCESS] - Worker 1324 running on port 8081
+2025-03-23 15:21:44 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 15:21:46 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:21:46 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:21:46 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:21:46 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:21:47 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:21:47 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:21:47 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:21:47 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:43:30 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:43:30 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:43:30 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:43:30 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:43:30 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:46:17 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:46:17 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:46:17 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:46:17 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:46:17 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:46:17 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:46:17 [INFO] - Fetching posts:
+2025-03-23 15:46:17 [INFO] - Posts fetched successfully:
+2025-03-23 15:46:17 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:46:17 [INFO] - Fetching posts:
+2025-03-23 15:46:17 [INFO] - Posts fetched successfully:
+2025-03-23 15:46:17 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:46:18 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:46:18 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:46:20 [INFO] - Fetching posts:
+2025-03-23 15:46:20 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:46:20 [INFO] - Posts fetched successfully:
+2025-03-23 15:46:20 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:46:20 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:46:20 [INFO] - Fetching posts:
+2025-03-23 15:46:20 [INFO] - Posts fetched successfully:
+2025-03-23 15:46:20 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:46:40 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 15:46:40 [INFO] - HTTP POST /api/posts
+2025-03-23 15:48:18 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:48:18 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:48:18 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:48:18 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:48:18 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:48:18 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:48:18 [INFO] - Fetching posts:
+2025-03-23 15:48:18 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:48:18 [INFO] - Posts fetched successfully:
+2025-03-23 15:48:18 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:48:18 [INFO] - Fetching posts:
+2025-03-23 15:48:18 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:48:18 [INFO] - Posts fetched successfully:
+2025-03-23 15:48:18 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:48:18 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:48:18 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:48:37 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 15:48:37 [INFO] - HTTP POST /api/posts
+2025-03-23 15:50:32 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 15:50:32 [INFO] - HTTP POST /api/posts
+2025-03-23 15:51:29 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:51:29 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:51:29 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:29 [INFO] - Fetching posts:
+2025-03-23 15:51:29 [INFO] - Posts fetched successfully:
+2025-03-23 15:51:29 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:51:29 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:29 [INFO] - Fetching posts:
+2025-03-23 15:51:29 [INFO] - Posts fetched successfully:
+2025-03-23 15:51:29 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:51:29 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:29 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:32 [INFO] - Fetching posts:
+2025-03-23 15:51:32 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:32 [INFO] - Posts fetched successfully:
+2025-03-23 15:51:32 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:51:32 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:32 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:32 [INFO] - Fetching posts:
+2025-03-23 15:51:32 [INFO] - Posts fetched successfully:
+2025-03-23 15:51:32 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:51:32 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:34 [INFO] - Fetching posts:
+2025-03-23 15:51:34 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:34 [INFO] - Posts fetched successfully:
+2025-03-23 15:51:34 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:51:34 [INFO] - Fetching posts:
+2025-03-23 15:51:34 [INFO] - Posts fetched successfully:
+2025-03-23 15:51:34 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:51:34 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:34 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:34 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:51:49 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 15:51:49 [INFO] - HTTP POST /api/posts
+2025-03-23 15:52:21 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:52:21 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:52:21 [INFO] - Fetching posts:
+2025-03-23 15:52:21 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:21 [INFO] - Posts fetched successfully:
+2025-03-23 15:52:21 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:52:21 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:21 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:21 [INFO] - Fetching posts:
+2025-03-23 15:52:21 [INFO] - Posts fetched successfully:
+2025-03-23 15:52:21 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:52:21 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:25 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:25 [INFO] - Fetching posts:
+2025-03-23 15:52:25 [INFO] - Posts fetched successfully:
+2025-03-23 15:52:25 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:52:25 [INFO] - Fetching posts:
+2025-03-23 15:52:25 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:25 [INFO] - Posts fetched successfully:
+2025-03-23 15:52:25 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:52:25 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:25 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:59 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:52:59 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:52:59 [INFO] - Fetching posts:
+2025-03-23 15:52:59 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:59 [INFO] - Posts fetched successfully:
+2025-03-23 15:52:59 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:52:59 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:59 [INFO] - Fetching posts:
+2025-03-23 15:52:59 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:52:59 [INFO] - Posts fetched successfully:
+2025-03-23 15:52:59 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:52:59 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:53:01 [INFO] - Fetching posts:
+2025-03-23 15:53:01 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:53:01 [INFO] - Posts fetched successfully:
+2025-03-23 15:53:01 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:53:01 [INFO] - Fetching posts:
+2025-03-23 15:53:01 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:53:01 [INFO] - Posts fetched successfully:
+2025-03-23 15:53:01 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:53:01 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:53:01 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:53:15 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 15:53:15 [INFO] - HTTP POST /api/posts
+2025-03-23 15:53:50 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 15:53:50 [INFO] - HTTP POST /api/posts
+2025-03-23 15:54:17 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:54:17 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 15:54:17 [INFO] - Fetching posts:
+2025-03-23 15:54:17 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:54:17 [INFO] - Posts fetched successfully:
+2025-03-23 15:54:17 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:54:17 [INFO] - Fetching posts:
+2025-03-23 15:54:17 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:54:17 [INFO] - Posts fetched successfully:
+2025-03-23 15:54:17 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 15:54:17 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:54:17 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:54:24 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:54:24 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:54:24 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:54:24 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:56:44 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:56:44 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:56:44 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:56:44 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:56:44 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:56:44 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:56:44 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:56:44 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:57:07 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:57:07 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:57:07 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:57:08 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:57:24 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:57:24 [INFO] - HTTP PUT /api/users/me
+2025-03-23 15:57:30 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:57:30 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:57:30 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:57:30 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:58:52 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:58:52 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:58:52 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:58:52 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:58:52 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:58:52 [INFO] - HTTP GET /api/users/me
+2025-03-23 15:58:52 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 15:58:52 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:00:04 [INFO] - Master process 5944 is running
+2025-03-23 16:00:06 [SUCCESS] - Worker 16356 running on port 8081
+2025-03-23 16:00:06 [SUCCESS] - Worker 19544 running on port 8081
+2025-03-23 16:00:06 [SUCCESS] - Worker 7116 running on port 8081
+2025-03-23 16:00:06 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:06 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:06 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:06 [SUCCESS] - Worker 3480 running on port 8081
+2025-03-23 16:00:06 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:11 [INFO] - Master process 21624 is running
+2025-03-23 16:00:12 [SUCCESS] - Worker 132 running on port 8081
+2025-03-23 16:00:12 [SUCCESS] - Worker 22176 running on port 8081
+2025-03-23 16:00:12 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:12 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:12 [SUCCESS] - Worker 16232 running on port 8081
+2025-03-23 16:00:12 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:12 [SUCCESS] - Worker 10012 running on port 8081
+2025-03-23 16:00:12 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:21 [INFO] - Master process 18812 is running
+2025-03-23 16:00:29 [INFO] - Master process 20312 is running
+2025-03-23 16:00:31 [SUCCESS] - Worker 9336 running on port 8081
+2025-03-23 16:00:31 [SUCCESS] - Worker 19536 running on port 8081
+2025-03-23 16:00:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:31 [SUCCESS] - Worker 15292 running on port 8081
+2025-03-23 16:00:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:31 [SUCCESS] - Worker 324 running on port 8081
+2025-03-23 16:00:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:00:40 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:00:40 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:00:40 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:00:40 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:00:40 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:00:40 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:00:40 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:00:40 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:01:15 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:01:15 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:01:32 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:01:32 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:01:39 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:01:39 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:01:46 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:01:46 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:01:49 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:04:17 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:04:17 [INFO] - HTTP POST /api/posts
+2025-03-23 16:05:26 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:05:26 [INFO] - HTTP POST /api/posts
+2025-03-23 16:05:29 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:05:29 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:05:29 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:05:29 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:05:29 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:05:29 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:05:29 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:05:29 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:05:39 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:05:39 [INFO] - HTTP POST /api/posts
+2025-03-23 16:06:52 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:06:53 [INFO] - HTTP POST /api/posts
+2025-03-23 16:06:56 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:06:56 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:06:56 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:06:56 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:06:57 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:06:57 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:06:57 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:06:59 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 16:06:59 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:06:59 [INFO] - Fetching posts:
+2025-03-23 16:06:59 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:06:59 [INFO] - Posts fetched successfully:
+2025-03-23 16:06:59 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:06:59 [INFO] - Fetching posts:
+2025-03-23 16:06:59 [INFO] - Posts fetched successfully:
+2025-03-23 16:06:59 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:07:08 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:07:08 [INFO] - HTTP POST /api/posts
+2025-03-23 16:07:52 [INFO] - Master process 2756 is running
+2025-03-23 16:07:54 [SUCCESS] - Worker 19776 running on port 8081
+2025-03-23 16:07:54 [SUCCESS] - Worker 10328 running on port 8081
+2025-03-23 16:07:54 [SUCCESS] - Worker 4968 running on port 8081
+2025-03-23 16:07:54 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:07:54 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:07:54 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:07:54 [SUCCESS] - Worker 14516 running on port 8081
+2025-03-23 16:07:54 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:08:35 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:08:35 [INFO] - HTTP POST /api/posts
+2025-03-23 16:10:19 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:10:19 [INFO] - HTTP POST /api/posts
+2025-03-23 16:10:28 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:10:28 [INFO] - HTTP POST /api/posts
+2025-03-23 16:10:51 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 16:10:51 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:10:51 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:10:51 [INFO] - Fetching posts:
+2025-03-23 16:10:51 [INFO] - Posts fetched successfully:
+2025-03-23 16:10:51 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:10:51 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:10:51 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:10:56 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:10:56 [INFO] - HTTP POST /api/posts
+2025-03-23 16:11:27 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:11:27 [INFO] - HTTP POST /api/posts
+2025-03-23 16:12:39 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:12:39 [INFO] - HTTP POST /api/posts
+2025-03-23 16:13:27 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:13:28 [INFO] - HTTP POST /api/posts
+2025-03-23 16:14:05 [INFO] - Master process 18776 is running
+2025-03-23 16:14:06 [SUCCESS] - Worker 18708 running on port 8081
+2025-03-23 16:14:06 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:06 [SUCCESS] - Worker 14628 running on port 8081
+2025-03-23 16:14:06 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:06 [SUCCESS] - Worker 2488 running on port 8081
+2025-03-23 16:14:06 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:06 [SUCCESS] - Worker 20028 running on port 8081
+2025-03-23 16:14:06 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:08 [INFO] - Master process 20584 is running
+2025-03-23 16:14:10 [SUCCESS] - Worker 7040 running on port 8081
+2025-03-23 16:14:10 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:10 [SUCCESS] - Worker 2492 running on port 8081
+2025-03-23 16:14:10 [SUCCESS] - Worker 21516 running on port 8081
+2025-03-23 16:14:10 [SUCCESS] - Worker 1712 running on port 8081
+2025-03-23 16:14:10 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:10 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:10 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:13 [INFO] - Master process 12812 is running
+2025-03-23 16:14:14 [SUCCESS] - Worker 3248 running on port 8081
+2025-03-23 16:14:14 [SUCCESS] - Worker 15048 running on port 8081
+2025-03-23 16:14:14 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:14 [SUCCESS] - Worker 11248 running on port 8081
+2025-03-23 16:14:14 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:14 [SUCCESS] - Worker 1880 running on port 8081
+2025-03-23 16:14:14 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:14 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:16 [INFO] - Master process 8488 is running
+2025-03-23 16:14:21 [INFO] - Master process 18804 is running
+2025-03-23 16:14:24 [INFO] - Master process 3932 is running
+2025-03-23 16:14:26 [INFO] - Master process 21468 is running
+2025-03-23 16:14:27 [SUCCESS] - Worker 15920 running on port 8081
+2025-03-23 16:14:27 [SUCCESS] - Worker 7132 running on port 8081
+2025-03-23 16:14:27 [SUCCESS] - Worker 16556 running on port 8081
+2025-03-23 16:14:27 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:27 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:27 [SUCCESS] - Worker 21736 running on port 8081
+2025-03-23 16:14:27 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:27 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:29 [INFO] - Master process 22084 is running
+2025-03-23 16:14:31 [SUCCESS] - Worker 14148 running on port 8081
+2025-03-23 16:14:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:31 [SUCCESS] - Worker 21040 running on port 8081
+2025-03-23 16:14:31 [SUCCESS] - Worker 11296 running on port 8081
+2025-03-23 16:14:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:31 [SUCCESS] - Worker 20836 running on port 8081
+2025-03-23 16:14:31 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:32 [INFO] - Master process 9560 is running
+2025-03-23 16:14:34 [SUCCESS] - Worker 10572 running on port 8081
+2025-03-23 16:14:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:34 [SUCCESS] - Worker 17868 running on port 8081
+2025-03-23 16:14:34 [SUCCESS] - Worker 19260 running on port 8081
+2025-03-23 16:14:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:34 [SUCCESS] - Worker 19968 running on port 8081
+2025-03-23 16:14:34 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:35 [INFO] - Master process 13164 is running
+2025-03-23 16:14:37 [SUCCESS] - Worker 16608 running on port 8081
+2025-03-23 16:14:37 [SUCCESS] - Worker 21696 running on port 8081
+2025-03-23 16:14:37 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:37 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:37 [SUCCESS] - Worker 13116 running on port 8081
+2025-03-23 16:14:38 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:38 [SUCCESS] - Worker 14316 running on port 8081
+2025-03-23 16:14:38 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:14:41 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 16:14:41 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:14:41 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:14:41 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:14:41 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 16:14:41 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:14:41 [INFO] - Fetching posts:
+2025-03-23 16:14:41 [INFO] - Fetching posts:
+2025-03-23 16:14:41 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:14:41 [INFO] - Posts fetched successfully:
+2025-03-23 16:14:41 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:14:41 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:14:41 [INFO] - Posts fetched successfully:
+2025-03-23 16:14:41 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:14:41 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:14:41 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:14:51 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:14:51 [INFO] - HTTP POST /api/posts
+2025-03-23 16:15:45 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:15:45 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:15:45 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:15:45 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:15:47 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:15:47 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:17:48 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:17:48 [INFO] - HTTP POST /api/posts
+2025-03-23 16:17:59 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:17:59 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:17:59 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 16:17:59 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 16:17:59 [INFO] - Fetching posts:
+2025-03-23 16:17:59 [INFO] - Posts fetched successfully:
+2025-03-23 16:17:59 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:17:59 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:17:59 [INFO] - Fetching posts:
+2025-03-23 16:17:59 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:17:59 [INFO] - Posts fetched successfully:
+2025-03-23 16:17:59 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:18:04 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:18:04 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 16:18:04 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:18:04 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:18:04 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 16:18:04 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:18:04 [INFO] - Fetching posts:
+2025-03-23 16:18:04 [INFO] - Fetching posts:
+2025-03-23 16:18:04 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:18:04 [INFO] - Posts fetched successfully:
+2025-03-23 16:18:04 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:18:04 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:18:04 [INFO] - Posts fetched successfully:
+2025-03-23 16:18:04 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:18:04 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:18:04 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:59:00 [INFO] - Master process 19940 is running
+2025-03-23 16:59:02 [SUCCESS] - Worker 19948 running on port 8081
+2025-03-23 16:59:02 [SUCCESS] - Worker 12776 running on port 8081
+2025-03-23 16:59:02 [SUCCESS] - Worker 5920 running on port 8081
+2025-03-23 16:59:02 [SUCCESS] - Worker 18192 running on port 8081
+2025-03-23 16:59:02 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:59:02 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:59:02 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:59:02 [SUCCESS] - MongoDB Connected: localhost
+2025-03-23 16:59:18 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:59:18 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 16:59:18 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:59:18 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:59:18 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 16:59:18 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 16:59:18 [INFO] - Fetching posts:
+2025-03-23 16:59:18 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:59:18 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:59:18 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:59:18 [INFO] - HTTP GET /api/users/me
+2025-03-23 16:59:18 [INFO] - Posts fetched successfully:
+2025-03-23 16:59:18 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:59:18 [INFO] - Fetching posts:
+2025-03-23 16:59:18 [INFO] - Posts fetched successfully:
+2025-03-23 16:59:18 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 16:59:32 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:59:32 [INFO] - HTTP POST /api/posts
+2025-03-23 16:59:49 [INFO] - HTTP OPTIONS /api/posts
+2025-03-23 16:59:49 [INFO] - HTTP POST /api/posts
+2025-03-23 17:03:00 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 17:03:00 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 17:03:00 [INFO] - Fetching posts:
+2025-03-23 17:03:00 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:03:00 [INFO] - Posts fetched successfully:
+2025-03-23 17:03:00 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 17:03:00 [INFO] - Fetching posts:
+2025-03-23 17:03:00 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:03:00 [INFO] - Posts fetched successfully:
+2025-03-23 17:03:00 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 17:03:00 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:03:00 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:20 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 17:04:20 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 17:04:20 [INFO] - HTTP OPTIONS /api/posts?page=1&limit=10
+2025-03-23 17:04:20 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 17:04:20 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 17:04:20 [INFO] - HTTP OPTIONS /api/users/me
+2025-03-23 17:04:20 [INFO] - Fetching posts:
+2025-03-23 17:04:20 [INFO] - Posts fetched successfully:
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:20 [INFO] - Fetching posts:
+2025-03-23 17:04:20 [INFO] - Posts fetched successfully:
+2025-03-23 17:04:20 [INFO] - Fetching posts:
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 17:04:20 [INFO] - Posts fetched successfully:
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:20 [INFO] - Fetching posts:
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:20 [INFO] - Fetching posts:
+2025-03-23 17:04:20 [INFO] - Posts fetched successfully:
+2025-03-23 17:04:20 [INFO] - Posts fetched successfully:
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 17:04:20 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 17:04:21 [INFO] - Fetching posts:
+2025-03-23 17:04:21 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:21 [INFO] - Posts fetched successfully:
+2025-03-23 17:04:21 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 17:04:21 [INFO] - Fetching posts:
+2025-03-23 17:04:21 [INFO] - Posts fetched successfully:
+2025-03-23 17:04:21 [INFO] - HTTP GET /api/posts?page=1&limit=10
+2025-03-23 17:04:21 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:21 [INFO] - HTTP GET /api/users/me
+2025-03-23 17:04:21 [INFO] - HTTP GET /api/users/me

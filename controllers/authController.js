@@ -11,7 +11,7 @@ const validateEmail = (email) => {
 
 exports.register = async (req, res) => {
   try {
-    logger.debug('Registration attempt:', { username: req.body.username, email: req.body.email });
+    logger.info('Registration attempt:', { username: req.body.username, email: req.body.email });
 
     const { username, email, password } = req.body;
 
@@ -57,26 +57,19 @@ exports.register = async (req, res) => {
 };
 
 exports.login = async (req, res) => {
-  try {
-    logger.debug('Login attempt:', { username: req.body.username });
-
-    const { username, password } = req.body;
-
-    // Find user
-    const user = await User.findOne({ username });
+  try { 
+    const { username, password } = req.body; 
+    const user = await User.findOne({ username}); 
     if (!user) {
       logger.warn('Login failed - User not found:', { username });
       return res.status(401).json({ error: 'Invalid credentials' });
-    }
+    } 
 
-    // Check password
     const validPassword = await bcrypt.compare(password, user.password);
     if (!validPassword) {
       logger.warn('Login failed - Invalid password:', { username });
       return res.status(401).json({ error: 'Invalid credentials' });
-    }
-
-    // Generate token
+    } 
     const token = jwt.sign(
       { userId: user._id },
       process.env.JWT_SECRET,

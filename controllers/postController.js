@@ -2,10 +2,9 @@ const Post = require('../models/Post');
 const Comment = require('../models/Comment');
 const logger = require('../config/logger');
 
-// Create a new post
 exports.createPost = async (req, res) => {
   try {
-    logger.debug('Creating new post:', { userId: req.user._id, text: req.body.text });
+    logger.info('Creating new post:');
 
     const { text } = req.body;
     const images = req.files ? req.files.map(file => `/assets/${file.filename}`) : [];
@@ -29,14 +28,13 @@ exports.createPost = async (req, res) => {
   }
 };
 
-// Get all posts with pagination
 exports.getAllPosts = async (req, res) => {
   try {
     const page = parseInt(req.query.page) || 1;
     const limit = parseInt(req.query.limit) || 10;
     const skip = (page - 1) * limit;
 
-    logger.debug('Fetching posts:', { page, limit });
+    logger.info('Fetching posts:', { page, limit });
 
     const posts = await Post.find()
       .sort({ createdAt: -1 })
@@ -63,10 +61,9 @@ exports.getAllPosts = async (req, res) => {
   }
 };
 
-// Get a single post
 exports.getPost = async (req, res) => {
   try {
-    logger.debug('Fetching post:', { postId: req.params.id });
+    logger.info('Fetching post:', { postId: req.params.id });
 
     const post = await Post.findById(req.params.id)
       .populate('userId', 'username profilePicture');
@@ -84,10 +81,9 @@ exports.getPost = async (req, res) => {
   }
 };
 
-// Update a post
 exports.updatePost = async (req, res) => {
   try {
-    logger.debug('Updating post:', { postId: req.params.id, userId: req.user._id });
+    logger.info('Updating post:', { postId: req.params.id, userId: req.user._id });
 
     const post = await Post.findById(req.params.id);
 
@@ -118,10 +114,9 @@ exports.updatePost = async (req, res) => {
   }
 };
 
-// Delete a post
 exports.deletePost = async (req, res) => {
   try {
-    logger.debug('Deleting post:', { postId: req.params.id, userId: req.user._id });
+    logger.info('Deleting post:', { postId: req.params.id, userId: req.user._id });
 
     const post = await Post.findById(req.params.id);
 
@@ -149,10 +144,9 @@ exports.deletePost = async (req, res) => {
   }
 };
 
-// Toggle like on a post
 exports.toggleLike = async (req, res) => {
   try {
-    logger.debug('Toggling post like:', { postId: req.params.id, userId: req.user._id });
+    logger.info('Toggling post like:', { postId: req.params.id, userId: req.user._id });
 
     const post = await Post.findById(req.params.id);
 
@@ -184,7 +178,6 @@ exports.toggleLike = async (req, res) => {
   }
 };
 
-// Add a comment
 exports.addComment = async (req, res) => {
   try {
     const { text } = req.body;
@@ -215,7 +208,6 @@ exports.addComment = async (req, res) => {
   }
 };
 
-// Get comments for a post
 exports.getComments = async (req, res) => {
   try {
     const comments = await Comment.find({ postId: req.params.id })
@@ -230,7 +222,6 @@ exports.getComments = async (req, res) => {
   }
 };
 
-// Delete a comment
 exports.deleteComment = async (req, res) => {
   try {
     const comment = await Comment.findById(req.params.commentId);
@@ -252,7 +243,6 @@ exports.deleteComment = async (req, res) => {
   }
 };
 
-// Toggle like on a comment
 exports.toggleCommentLike = async (req, res) => {
   try {
     const comment = await Comment.findById(req.params.commentId);
