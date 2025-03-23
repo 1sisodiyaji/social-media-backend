@@ -37,6 +37,7 @@ if (cluster.isMaster) {
     max: 10000,  
     message: 'Too many requests from this IP, please try again later.',
   });
+  app.set('trust proxy', 1);
   app.use('/api/', limiter);
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
